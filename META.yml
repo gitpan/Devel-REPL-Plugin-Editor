@@ -1,0 +1,25 @@
+---
+abstract: 'Add #edit command to drop into an editor for longer expressions'
+author:
+  - 'Rob Hoelz <rob@hoelz.ro>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300014, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Devel-REPL-Plugin-Editor
+requires:
+  Devel::REPL: 0
+  File::Slurp: 0
+  namespace::clean: 0
+  perl: v5.8.8
+resources:
+  bugtracker: https://github.com/hoelzro/devel-repl-plugin-editor/issues
+  homepage: https://github.com/hoelzro/devel-repl-plugin-editor
+  repository: https://github.com/hoelzro/devel-repl-plugin-editor.git
+version: 0.01
